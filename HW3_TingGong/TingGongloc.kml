@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Style id="transBluePoly">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7dff0000</color>
+      </PolyStyle>
+</Style>
+<Placemark>
+<name>Convex</name>
+<visibility>0</visibility>
+<styleUrl>#transBluePoly</styleUrl>
+<Polygon>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-118.496738747993,34.0094596651956,100
+-118.28774034941,34.0140186336834,100
+-118.238685428134,34.0493837283585,100
+-118.358432650595,34.0722309386,100
+-118.496738747993,34.0094596651956,100 </coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+
+<Placemark>
+<name>linetoleavey</name>
+ <LineString>
+          <tessellate>0</tessellate>
+          <coordinates> -118.27187370000001,34.0291765
+            -118.28281179070473,34.02175975920757 
+            </coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>linetouytengsn</name>
+ <LineString>
+          <tessellate>0</tessellate>
+          <coordinates> -118.27187370000001,34.0291765
+           -118.28824460506439,34.02388944530201 
+            </coordinates>
+</LineString>
+</Placemark>
+
+<Placemark>
+<name>linetostaple</name>
+ <LineString>
+          <tessellate>0</tessellate>
+          <coordinates> -118.27187370000001,34.0291765
+           -118.26719462871552,34.04290752837424 
+            </coordinates>
+</LineString>
+</Placemark>
+
+<Placemark><name>Lorenzo</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.27187370000001,34.0291765</coordinates></Point>
+</Placemark>
+<Placemark><name>Ralphs</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2910701778412,34.03187418077439</coordinates></Point>
+</Placemark>
+<Placemark><name>Uytengsn Aquatics Center</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28824460506439,34.02388944530201</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavey Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28281179070473,34.02175975920757</coordinates></Point>
+</Placemark>
+<Placemark><name>USC Bookstore</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28648675233126,34.02072435232496</coordinates></Point>
+</Placemark>
+<Placemark><name>LA Memoral Coliseum</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28774034976959,34.01401863376962</coordinates></Point>
+</Placemark>
+<Placemark><name>Staples Center</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.26719462871552,34.04290752837424</coordinates></Point>
+</Placemark>
+<Placemark><name>the Grove shopping mall</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.3584326505661,34.07223093863892</coordinates></Point>
+</Placemark>
+<Placemark><name>Santa Monica Pier</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.49673874676228,34.0094596654644</coordinates></Point>
+</Placemark>
+<Placemark><name>Japanese American National Museum</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.23868542909622,34.04938372826886</coordinates></Point>
+</Placemark>
+
+
+
+
+
+
+
+
+</Document></kml>
